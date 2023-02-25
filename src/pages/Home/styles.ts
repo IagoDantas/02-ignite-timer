@@ -34,7 +34,7 @@ const BaseInput = styled.input`
   font-weight: bold;
   padding: 0 0.5rem;
   color: ${(props) => props.theme['gray-100']};
-
+  text-align: center;
   &:focus {
     box-shadow: none;
     border-color: ${(props) => props.theme['green-500']};
