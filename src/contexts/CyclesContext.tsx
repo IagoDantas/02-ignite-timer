@@ -48,6 +48,7 @@ export function CyclesContextProvider({
         return cycle
       }),
     )
+    setActiveCycleId(null)
   }
 
   function setSecondsPassed(seconds: number) {
